@@ -14,7 +14,7 @@ A basic component for Question and Answer section on web pages.
 ```
 
 ## File Descriptions
-* faqs.hbs (The FAQ list component)
-* faq.hbs (A FAQ item)
-* faqs.scss (SASS file for styling the FAQs component)
-* faqs-data.scss (Insert your question and answers here)
+* [faqs.hbs](/FAQs/faqs.hbs) (The FAQ list component)
+* [faq.hbs](/FAQs/faq.hbs) (A FAQ item)
+* [faqs.scss](/FAQs/faqs.scss) (SASS file for styling the FAQs component)
+* [faqs-data.json](/FAQs/faqs-data.json) (Insert your question and answers here)
