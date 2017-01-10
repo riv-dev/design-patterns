@@ -5,13 +5,13 @@ When you have social media icon links.  Usually in the footer of a page.
 ![Alt text](/SocialMediaLinks/__example.png)
 
 ## Component Summary
-The [socialMediaLinks.hbs](/SocialMediaLinks/socialMediaLinks.hbs) component provides a list of question and answers.
+The [socialMediaLinks.hbs](/SocialMediaLinks/socialMediaLinks.hbs) component provides a set of social media icon links.
 
 ## Usage
 ```handlebars
 {{> socialMediaLinks data=socialMediaLinks-data}}
 ```
-(Optionally add a modifier for specific styling.  For the case where you have two socialMediaLinks components, and you want the second one styled differently)
+(Optionally add a modifier for specific styling.  For example, a case where you have two socialMediaLinks components, and you want the second one styled differently)
 ```handlebars
 {{> socialMediaLinks data=socialMediaLinks-data modifier=mymodifier}}
 ```
