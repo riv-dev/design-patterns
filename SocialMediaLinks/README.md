@@ -19,5 +19,5 @@ The [socialMediaLinks.hbs](/SocialMediaLinks/socialMediaLinks.hbs) component pro
 ## File Descriptions
 * [socialMediaLinks.hbs](/SocialMediaLinks/socialMediaLinks.hbs) (The Social Media list component)
 * [socialMediaLink.hbs](/SocialMediaLinks/socialMediaLink.hbs) (A Social Media Link item)
-* [_socialMediaLinks.scss](/SocialMediaLinks/_socialMediaLinks.scss) (SASS file for styling the SocialMediaLinks component)
-* [socialMediaLinks-data.json](/SocialMediaLinks/socialMediaLinks-data.json) (Insert your question and answers here)
+* [_socialMediaLinks.scss](/SocialMediaLinks/_socialMediaLinks.scss) (SASS file for styling the SocialMediaLinks component.  Here is where you will call the specific icon from the FontAwesome library)
+* [socialMediaLinks-data.json](/SocialMediaLinks/socialMediaLinks-data.json) (Insert the list of icon links here)
