@@ -1,4 +1,7 @@
 {{!-- The Social Media Link and Icon --}}
-<a class="social-media-link" href="{{this.url}}" target="_blank" title="{{this.name}}">
-    <em class="social-media-link__icon social-media-link__--{{this.name}}"></em>
+{{!-- To avoid confusion, note the difference between social-media-link--{{modifier}} --}}
+{{!-- and social-media-link__icon--{{data.name}}, the first is for customizing, the second --}}
+{{!-- is for calling the specific icon for the social media link --}}
+<a class="social-media-link {{#if modifier}}social-media-link--{{modifier}}{{/if}}" href="{{this.url}}" target="_blank" title="{{data.name}}">
+    <em class="social-media-link__icon social-media-link__icon--{{data.name}}"></em>
 </a>
