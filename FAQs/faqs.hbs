@@ -1,0 +1,8 @@
+{{!-- The FAQs List --}}
+<ul class="faqs {{#if modifier}}faqs--{{modifier}}{{/if}}">
+    {{#each data}}
+    <li class="faqs__item {{#if ../modifier}}faqs__item--{{../../modifier}}{{/if}}">
+        {{>faq data=this modifier=../modifier}}
+    </li>
+    {{/each}}
+</ul>

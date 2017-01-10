@@ -1,0 +1,85 @@
+@charset "utf-8";
+// class name：.faqs
+
+// ==================================================
+// FAQ List 
+// ==================================================
+.faqs {
+
+}
+
+// ==================================================
+// FAQ List Items 
+// ==================================================
+.faqs__item {
+    //Set the spacing between FAQ items
+    margin-top: 15px;
+
+    &:first-child {
+        margin-top: 0px;
+    }
+
+    @media(min-width: $screen-md-min) {
+        //Set the spacing between FAQ items
+        margin-top: 48px;
+    }
+}
+
+// ==================================================
+// FAQ Item 
+// ==================================================
+.faq {
+    //Set the default font settings for the FAQ
+    line-height: 1.8em;
+    font-family: $font-text;
+    font-size: 12px;
+    @media(min-width: $screen-md-min) {
+        font-size: 14px;
+    }
+}
+
+// ==================================================
+// FAQ Question 
+// ==================================================
+.faq__question {
+    font-weight: bold;
+    color: $color-blue;
+
+    //Display Q: <Question> as table-cells
+    &:before {
+        display: table-cell;
+        content:'Q';
+        //Set the spacing between Q: and <Question>
+        padding-right: 25px;
+    }
+
+    span {
+        display: table-cell;
+    }
+
+}
+
+// ==================================================
+// FAQ Answer 
+// ==================================================
+.faq__answer {
+    color: $color-gray;
+
+    //Display A: <Answer> as table-cells
+    &:before {
+        display: table-cell;
+        content:'A';
+        //Set the spacing between A: and <Answer>
+        padding-right: 25px;
+    }
+
+    span {
+        display: table-cell;
+    }
+
+    //Set the spacing between Q and A
+    margin-top: 5px;
+    @media(min-width: $screen-md-min) {
+        margin-top: 7px;
+    }
+}

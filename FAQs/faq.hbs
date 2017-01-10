@@ -1,0 +1,10 @@
+{{!-- The FAQ Question and Answer Item --}}
+<dl class="faq {{#if modifier}}faq--{{modifier}}{{/if}}">
+    <dt class="faq__question {{#if modifier}}faq__question--{{modifier}}{{/if}}">
+        <span>{{data.question}}</span>
+    </dt>
+
+    <dd class="faq__answer {{#if modifier}}faq__answer--{{modifier}}{{/if}}">
+        <span>{{{data.answer}}}</span>
+    </dd>
+</dl>
