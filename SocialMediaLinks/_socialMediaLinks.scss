@@ -53,6 +53,7 @@
     font-family: FontAwesome;
     
     //modifier for facebook icon
+    //The modifier is set by the link "name" in the .json file
     &--facebook {
         &:before {
             content: "\f09a"
@@ -65,6 +66,7 @@
     }
 
     //modifier for twitter icon
+    //The modifier is set by the link "name" in the .json file
     &--twitter {
         &:before {
             content: "\f099";
