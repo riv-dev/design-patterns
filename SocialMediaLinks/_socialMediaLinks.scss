@@ -51,29 +51,29 @@
 .social-media-link__icon {
     //Use the FontAwesome library for icons
     font-family: FontAwesome;
-}
-
-//modifier for facebook icon
-.social-media-link__icon-type-facebook {
-    &:before {
-        content: "\f09a"
-    }
-    @media(min-width: $screen-md-min) {
-        &:hover {
-            color: #3b5998;
+    
+    //modifier for facebook icon
+    &--facebook {
+        &:before {
+            content: "\f09a"
+        }
+        @media(min-width: $screen-md-min) {
+            &:hover {
+                color: #3b5998;
+            }
         }
     }
-}
 
-//modifier for twitter icon
-.social-media-link__icon-type-twitter {
-    &:before {
-        content: "\f099";
-    }
-    @media(min-width: $screen-md-min) {
-        @include transition(0.2s);
-        &:hover {
-            color: #55acee;
+    //modifier for twitter icon
+    &--twitter {
+        &:before {
+            content: "\f099";
+        }
+        @media(min-width: $screen-md-min) {
+            @include transition(0.2s);
+            &:hover {
+                color: #55acee;
+            }
         }
     }
 }
