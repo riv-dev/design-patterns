@@ -2,7 +2,7 @@
 When you have a Question and Answer list, usually on the "FAQ" page.
 
 ## Example
-![Alt text](/FAQs/example.png)
+![Alt text](/FAQs/__example.png)
 
 ## Component Summary
 The [faqs.hbs](/FAQs/faqs.hbs) component provides a list of question and answers.
