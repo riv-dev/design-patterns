@@ -1,0 +1,8 @@
+{{!-- Social Media Links --}}
+<ul class="social-media-links {{#if modifier}}social-media-links--{{modifier}}{{/if}}">
+    {{#each data}}
+    <li class="social-media-links__item {{#if ../modifier}}social-media-links__item--{{../../modifier}}{{/if}}">
+        {{> socialMediaLink data=this modifier=../modifier}}
+    </li>
+    {{/each}}
+</ul>

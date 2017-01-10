@@ -1,0 +1,79 @@
+@charset "utf-8";
+// class name：.social-media links
+
+
+// ==================================================
+// The Social Media Links list 
+// ==================================================
+.social-media-links {
+
+}
+
+// ==================================================
+// The Social Media Links List Item 
+// ==================================================
+.social-media-links__item {
+    display: inline-block;
+
+    //Set right and left spacing between links
+    margin-left: 5px;
+    margin-right: 5px;
+    @media(min-width: $screen-sm-min) {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+}
+
+// ==================================================
+// The Social Media Link
+// ==================================================
+.social-media-link {
+    @extend .td-n;
+    @extend .fz-20;
+    @extend .d-ib;
+    @extend .w-100per;
+    color: #afb0b8;
+    transition: $button_hover-trs;
+
+    &:visited {
+        color: #afb0b8;
+    }
+    @media(min-width: $screen-md-min) {
+        &:hover {
+            color: #afb0b8;
+        }
+    }
+}
+
+// ==================================================
+// The Social Media Link Icon 
+// ==================================================
+.social-media-link__icon {
+    //Use the FontAwesome library for icons
+    font-family: FontAwesome;
+}
+
+//modifier for facebook icon
+.social-media-link__icon-type-facebook {
+    &:before {
+        content: "\f09a"
+    }
+    @media(min-width: $screen-md-min) {
+        &:hover {
+            color: #3b5998;
+        }
+    }
+}
+
+//modifier for twitter icon
+.social-media-link__icon-type-twitter {
+    &:before {
+        content: "\f099";
+    }
+    @media(min-width: $screen-md-min) {
+        @include transition(0.2s);
+        &:hover {
+            color: #55acee;
+        }
+    }
+}
