@@ -28,7 +28,9 @@
 // The Social Media Link
 // ==================================================
 .social-media-link {
+    //Set the size of the icon, hover styles, etc here.
     @extend .td-n;
+    //The size of the icon is set by font-size
     @extend .fz-20;
     @extend .d-ib;
     @extend .w-100per;
