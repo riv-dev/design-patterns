@@ -1,8 +1,11 @@
-## Synopsis
-A basic component for Question and Answer section on web pages.
+## Design Pattern
+When you have a Question and Answer list, usually on the "FAQ" page.
 
 ## Example
 ![Alt text](/FAQs/example.png)
+
+## Component Summary
+The [faqs.hbs](/FAQs/faqs.hbs) component provides a list of question and answers.
 
 ## Usage
 ```handlebars
