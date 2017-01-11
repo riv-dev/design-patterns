@@ -9,11 +9,11 @@ The [footerLinks.hbs](/FooterLinks/footerLinks.hbs) component provides footer na
 
 ## Usage
 ```handlebars
-{{> footerLinks data=footerLinks-data-page}}
+{{> footerLinks data=footerLinks-data}}
 ```
 (Optionally add a modifier for specific styling.)  
 ```handlebars
-{{> footerLinks data=footerLinks-data-page modifier=mymodifier}}
+{{> footerLinks data=footerLinks-data modifier=mymodifier}}
 ```
 
 ## File Descriptions
