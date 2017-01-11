@@ -1,0 +1,7 @@
+<ul class="breadcrumb-links {{#if modifier}}breadcrumb-links--{{modifier}}{{/if}}">
+    {{#each data}}
+    <li class="breadcrumb-links__item {{#if ../modifier}}breadcrumb-links__item--{{../../modifier}}{{/if}}">
+        {{>breadcrumbLink data=this modifier=../modifier}}
+    </li>
+    {{/each}}
+</ul>

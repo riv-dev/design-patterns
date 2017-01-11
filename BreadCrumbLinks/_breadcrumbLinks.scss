@@ -1,0 +1,64 @@
+@charset "utf-8";
+// class name：.breadcrumb-links
+
+// ==================================================
+// The Breadcrumb Links List 
+// ==================================================
+.breadcrumb-links {
+    font-size: 12px;
+
+    padding: 6px 0px;
+    @media(min-width: $screen-md-min) {
+        padding: 8px 0px;
+    }
+}
+
+// ==================================================
+// The Breadcrumb List Item
+// ==================================================
+.breadcrumb-links__item {
+    //Display breadcrumbs inline
+    display: inline-block;
+
+    //Default font and colors
+    font-family: $font-text; 
+    color: $color-navy;
+
+    //Separator between breadcrumbs
+    &:after {
+        display: inline-block;
+        font-family: FontAwesome;
+        font-size: 14px;
+        color: $color-main-bg;
+        content: "\f105";
+
+        margin: 0px 6px;
+        @media(min-width: $screen-md-min) {
+            margin: 0px 12px;
+        }
+    }
+
+    //Home Link
+    &:first-child {
+        font-family: $font-english;
+    }
+
+    //Current Page
+    &:last-child {
+        color: $color-gray;
+
+        //Don't display separator after current page
+        &:after {
+            display: none;
+        }
+    }
+}
+
+// ==================================================
+// The Breadcrumb link 
+// ==================================================
+.breadcrumb-link {
+    //Style the link
+    display: inline-block;
+    text-decoration: none;
+}
