@@ -11,7 +11,7 @@ The [faqs.hbs](/FAQs/faqs.hbs) component provides a list of question and answers
 ```handlebars
 {{> faqs data=faqs-data}}
 ```
-(Optionally add a modifier for specific styling)
+(Optionally add a modifier for specific styling.  For example, if you have two different faq lists and you wish the second one to be styled differently.)
 ```handlebars
 {{> faqs data=faqs-data modifier=mymodifier}}
 ```
