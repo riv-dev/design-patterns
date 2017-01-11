@@ -1,0 +1,7 @@
+<ul class="footer-links {{#if modifier}}footer-links--{{modifier}}{{/if}}">
+    {{#each data}}
+    <li class="footer-links__item {{#if modifier}}footer-links__item--{{modifier}}{{/if}}">
+	{{>footerLink data=this modifier=../modifier}}
+    </li>
+    {{/each}}
+</ul>

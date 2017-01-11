@@ -1,0 +1,23 @@
+[
+    {
+        "name":"利用規約",
+        "url": "/terms/index.html"
+    },
+    {
+        "name":"運営会社",
+        "url":"/about-us/index.html"
+    },
+    {
+        "name":"FAQ",
+        "url":"/faq/index.html"
+    },
+    {
+        "name":"お問い合わせ",
+        "url":"/inquiry/input.html"
+    },
+    {
+        "name":"プライバシーポリシー",
+        "url":"http://www.inte.co.jp/privacy/",
+        "target-blank": "true"
+    }
+]

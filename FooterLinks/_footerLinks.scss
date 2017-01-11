@@ -1,0 +1,48 @@
+@charset "utf-8";
+// class name：.footer-links
+
+// ==================================================
+// The Footer Links List 
+// ==================================================
+.footer-links {
+
+}
+
+// ==================================================
+// A Footer Link List Item 
+// ==================================================
+.footer-links__item {
+    display: inline-block;
+
+    //The separator between links
+    border-right: 1px solid #afb0b8;
+
+    //No separator on the last link
+    &:last-child {
+        border-right: none;
+    }
+
+}
+
+// ==================================================
+// A Footer Link 
+// ==================================================
+.footer-link {
+    display: block;
+
+    //Set the font size, colors, etc.
+    color: $color-gray;
+    font-size: 12px;
+    text-decoration: none;
+
+    //The left and right padding of the link
+    padding: 0 14px;
+
+    //Hover styles
+    @media(min-width: $screen-md-min) {
+        @include transition(0.2s);
+        &:hover {
+            color: $color-green;
+        }
+    }
+}
