@@ -1,5 +1,5 @@
 ## Design Pattern
-When you have breadcrumb links on a page to show where you currently are, and navigation links to previous pages in the path.
+When you have breadcrumb links on a page to show the current page you are on, and navigation links to previous pages in the path.
 
 ## Example
 ![Alt text](/BreadCrumbLinks/__example.png)
